@@ -29,7 +29,6 @@ header {
 }
 
 .course-title {
-  display: inline;
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
@@ -51,8 +50,7 @@ header nav {
 /* navigation */
 .nav-links {
   display: flex;
-  justify-content: center;
-  gap: 1.5rem;
+  justify-content: space-around;
   list-style: none;
   padding: 0.5rem 0;
 }
@@ -72,6 +70,10 @@ header nav {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+h1 {
+  color: yellow;
+}
+
 h3 {
   text-decoration: underline;
 }
@@ -83,6 +85,10 @@ footer {
   background-color: var(--primary-color);
   font-size: 0.9rem;
   margin-top: 2rem;
+}
+
+#lastmodified {
+  color: yellow;
 }
 
 /* cards */
@@ -162,7 +168,6 @@ footer {
 }
 
 .resource-links a {
-  color: var(--primary-color);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -180,11 +185,15 @@ footer {
   }
 
   .profile-row {
-    flex-direction: column !important;
+    flex-direction: column;
     text-align: center;
   }
 
   .profile-text {
     text-align: center;
+  }
+
+  .profile-row img {
+    margin-bottom: 1rem;
   }
 }
