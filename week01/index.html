@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 131 - Dynamic Web Fundamentals | Sean Sonderegger | W01 Assignment: Home Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/base.css">
+</head>
+
+<body>
+  <header>
+    <span class="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+    <nav>
+      <ul id="menu">
+        <li><a href="https://www.linkedin.com/in/Sean-Sonderegger" target="_blank">LinkedIn Profile</a></li>
+        <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+        <li><a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a></li>
+        <li><a href="#">Final Project</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="home">
+    <h1>Sean Sonderegger</h1>
+    <section id="card">
+      <picture>
+        <img src="images/ME.jpg" alt="Profile Pic Image">
+      </picture>
+      <section>
+        <h2>About Me</h2>
+        <div class="info">Name: <span id="name"></span></div>
+        <h3>Favorite Food</h3>
+        <div class="block" id="food"></div>
+    </section>
+  </main>
+  <footer>
+    &copy;<span id="currentyear"></span> | Sean Sonderegger | Oklahoma, USA
+    <br>
+    <span id="lastmodified"></span>
+  </footer>
+  <script src="scripts/getdates.js"></script>
+</body>
+
+</html>
