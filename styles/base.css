@@ -28,7 +28,7 @@ header {
   text-align: center;
 }
 
-.course-title {
+#course-title {
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
@@ -71,7 +71,10 @@ header nav {
 }
 
 h1 {
-  color: yellow;
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: 25px;
+  margin-top: 15px;
 }
 
 h3 {
