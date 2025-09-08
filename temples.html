@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sean Sonderegger">
+  <meta name="description" content="This WDD 131 - Dynamic Web Fundamentals temple page with proper HTML structure, meta tags, and responsive design setup. It includes course requirments for week two responsive menus.">
+  <title>WDD 131 - Dynamic Web Fundamentals | Sean Sonderegger | W02 Assignment: Picture Album</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+  <header>
+    <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+    
+    <nav>
+      <ul class="nav-links">
+        <li><a href="https://www.linkedin.com/in/sean-sonderegger-4106a312b" target="_blank">LinkedIn Profile</a></li>
+        <li><a href="https://byupw.instructure.com/" target="_blank">Canvas</a></li>
+        <li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng" target="_blank">Scripture</a></li>
+        <li><a href="#">Final Project</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Sean Sonderegger</h1>
+    <div id="card-container">
+      <section class="card" id="profile-card">
+        <h2 class="card-title">About Me</h2>
+        <div class="profile-row">
+          <div class="profile-text">
+            <p>My name is Sean. I was born and raised in Oklahoma and still reside there today. I am currently
+              employed as a manufacturing engineer and desire to transition to our IT team. I have three daughters
+              and one grandchild whom I love to spend time with camping and fishing.</p>
+          </div>
+          <img class="profile-pic rounded-shadow" src="images/ME-min.jpg" alt="Sean S Profile Picture">
+        </div>
+        <div class="profile-row">
+          <img class="flag-pic rounded-shadow" src="images/USA.webp" alt="American Flag">
+          <div class="profile-text">
+            <h3>Oklahoma, USA</h3>
+            <p>Oklahoma, located in the south-central United States, is known for its diverse landscapes, including
+              plains, forests, and rolling hills. It has a rich Native American heritage and a strong agricultural
+              and energy economy. Oklahoma experiences vibrant cultural traditions, festivals, and a mix of small
+              towns and growing cities, reflecting its dynamic history.</p>
+          </div>
+        </div>
+      </section>
+      <section class="card">
+        <h2 class="card-title">Resources</h2>
+        <ul class="resource-links">
+          <li><a href="#">Dev.to Community</a></li>
+          <li><a href="#">Smashing Magazine</a></li>
+          <li><a href="#">CSS Tricks</a></li>
+          <li><a href="#">W3 Schools</a></li>
+          <li><a href="#">Udemy</a></li>
+          <li><a href="#">Image Placeholder</a></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <p>&copy;<span id="currentyear"></span> 🦈 <span>Sean Sonderegger</span> 🦈 <span>Oklahoma, USA</span></p>
+    <p><span id="lastmodified"></span></p>
+  </footer>
+  <script src="scripts/getdates.js" defer></script>
+</body>
+</html>
