@@ -52,7 +52,6 @@ main {
   max-width: 1000px;
   margin: 0 auto;
   padding: 1rem;
-  gap: 1rem;
 }
 
 .grid-container {
@@ -60,6 +59,18 @@ main {
   grid-template-columns: 1fr;
   gap: 1rem;
 }
+
+.grid-container h2 {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 
 figure {
   margin: 0;
