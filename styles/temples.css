@@ -12,11 +12,16 @@ h1, h2 {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding: 1rem;
   background: #003366;
   color: white;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 1rem;
 }
 
 nav ul {
