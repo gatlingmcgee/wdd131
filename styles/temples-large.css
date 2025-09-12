@@ -2,7 +2,7 @@
 @media (min-width: 600px) {
   nav ul {
     flex-direction: row;
-    gap: 1rem;
+    gap: 8rem;
   }
 
    #menu li {
@@ -13,12 +13,16 @@
     display: none;
   }
 
-  main {
+  .grid-container {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 
-    #menu li:not(:first-child) {
+  #menu li:not(:first-child) {
     display: inline-block;
-    }
+  }
+
+  img:hover {
+    transform: scale(1.05);
+  }
 
 }
