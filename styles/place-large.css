@@ -1,86 +1,37 @@
 @media (max-width: 500px) {
   
+  /* Main content adjustments */
   main {
-    max-width: 960vw;
     margin: 0 auto;
-  }
-
-  h1 {
-    font-size: 1.4rem;
-    padding: 20px;
-    vertical-align: middle;
-  }
-
-  .hero-image, .photo-container-img {
-    width: 100%;
-    height: auto;
     padding: 10px;
   }
 
-  .navigation {
-    background: none;
+  /* Header title font-size for small screens */
+  h1 {
+    font-size: 1.4rem;
+    padding: 20px 0;
+    text-align: center;
   }
 
-  .navigation a {
-    display: none;
-  }
-
-  .navigation a:hover {
-    background-color: rgba(255,255,255,0.2);
-  }
-
-  #hamburger-menu::before {
-    content: "☰";
-  }
-
-  #hamburger-menu.open::before {
-    content: "❌";
-  }
-  
-  #hamburger-menu {
-    display: block;
-    font-size: 1.5rem;
-    border: 0;
-    color: #000;
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    text-decoration: none;
-  }
-
-  .open a {
-    display: block;
-    background-color: #1d3a63;
-  }
-
+  /* Grid layout switch to single column */
   .grid {
-    gap: 20px;
     display: block;
-    width: 410px;
+    width: 90%;
+    margin: 0 auto;
+    gap: 20px;
   }
 
+  /* Grid sections styling for mobile */
   .grid section {
     background-color: #fff;
-    margin: 5px;
+    margin: 5px 0;
+    padding: 10px;
     border-radius: 6px;
-    box-shadow: 0 0 30px rgb(83,75,75);
+    box-shadow: 0 0 15px rgba(83, 75, 75, 0.4);
   }
 
-  .spotlightgrid, .side-bar {
-    display: block;
-    padding: 50px;
+  /* Optional: adjust text in grid sections */
+  .grid p {
+    font-size: 16px;
   }
-
-  .spotlightgrid {
-    text-align: center;
-    width: 350px;
-    height: auto;
-  }
-
-  .spotlightgrid-card {
-    border: 1px solid black;
-    margin-bottom: 30px;
-  }
-
 }
-
