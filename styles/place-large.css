@@ -1,19 +1,16 @@
 @media (max-width: 500px) {
   
-  /* Main content adjustments */
   main {
     margin: 0 auto;
     padding: 10px;
   }
 
-  /* Header title font-size for small screens */
   h1 {
     font-size: 1.4rem;
     padding: 20px 0;
     text-align: center;
   }
 
-  /* Grid layout switch to single column */
   .grid {
     display: block;
     width: 90%;
@@ -21,7 +18,6 @@
     gap: 20px;
   }
 
-  /* Grid sections styling for mobile */
   .grid section {
     background-color: #fff;
     margin: 5px 0;
@@ -30,8 +26,33 @@
     box-shadow: 0 0 15px rgba(83, 75, 75, 0.4);
   }
 
-  /* Optional: adjust text in grid sections */
   .grid p {
     font-size: 16px;
   }
+
+
+  .hero {
+  position: static;      /* Stop it being absolute */
+  z-index: auto;         /* Normal stacking */
+  opacity: 1;            /* Fully opaque */
+  width: 100%;           /* Ensure full width */
+  margin-bottom: 20px;   /* Space below before content */
+}
+
+.hero img {
+  opacity: 1;            /* Make the image solid */
+  height: auto;          /* Maintain aspect ratio */
+  object-fit: cover;     /* Keep it covering nicely */
+  max-width: 100%;
+}
+
+
+
+
+  /* ---- Disable all pseudo-elements safely ---- */
+  *::before,
+  *::after {
+    content: none !important;
+  }
+
 }

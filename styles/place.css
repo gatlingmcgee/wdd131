@@ -12,7 +12,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-
 }
 
 main {
@@ -78,8 +77,6 @@ hr {
   margin: 0;
 }
 
-
-
 picture img {
   width: 100%;
   height: auto;
@@ -101,5 +98,11 @@ picture img {
   width: 100%;
   height: auto;
   object-fit: cover;
-  opacity: 0.3; /* Optional: adds a subtle background effect */
+  opacity: 0.3;
+}
+
+  /* ---- Disable all pseudo-elements safely ---- */
+*::before,
+*::after {
+  content: none !important;
 }
