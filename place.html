@@ -15,17 +15,19 @@
 </head>
 <body>
   <header>
-    <h1>Hawaii</h1>
+    <h1>🌴 Hawaii 🌴</h1>
   </header>
-  <main>
-    <picture>
-      <source media="(max-width: 400px)" srcset="images/hawaiibeach.jpg">
-      <source media="(max-width: 1000px)" srcset="images/hawaiibeach.jpg">
-      <img class="heroimg" src="images/hawaiibeach.jpg" alt="BeachImage" width="500" height="250">
-    </picture>
+    <div class="hero"> 
+      <picture>
+        <source srcset="images/week3/beach-large.jpeg" media="(min-width: 1000px)">
+        <source srcset="images/week3/beach-medium.jpeg.png" media="(min-width: 500px)">
+        <img src="images/week3/beach-small.jpeg.png" alt="Beach" width="500" height="250">
+      </picture>
+    </div>
     <hr>
+  <main>
     <div class="grid">
-      <section>
+      <section class="data-box">
         <h2>Data</h2>
         <p>Area: 28,311 km² (10,931 sq mi)</p>
         <p>Population: about 1.44 million (2024 est.)</p>
@@ -36,24 +38,20 @@
         <p>Calling code: +1 808</p>
         <p>Internet TLD: .us</p>
       </section>
-      <section>
+      <section class="weather-box">
         <h2>Weather</h2>
-          <dl class="Placeholders">
-            <dt></dt>
-            <dd id="state-placeholder"></dd>
-            <dd>
-              <section class="weather">
-                <h3 id="town">#</h3>
-                <p id="description"></p>
-                <img id="graphic" src="#" alt="#">
-                <p id="temperature"></p>
-              </section>
-            </dd>
-            <dt>Number of Page Visits:</dt>
-            <dd>
-              <p><span class="visits"></span></p>
-            </dd>
-          </dl>
+          <div>
+            <section class="weather">
+              <img src="images/week3/sun.png" alt="Sunny weather icon" class="weather-icon-mobile" />
+              <p>Temperature: 82° F</p>
+              <p>Conditions: Sunny</p>
+              <p>Wind: 8 mph SE</p>
+              <p>Wind Chill: <span id="windchill"></span></p>
+            </section>
+          </div>
+          <div class="visits-info">
+            <p>Number of Page Visits: <span class="visits"></span></p>
+          </div>
       </section>
     </div>
   </main>
@@ -63,11 +61,9 @@
     <p><span id="lastmodified"></span></p>
   </footer>
   </div>
-
-  <script src="scripts/getDates.js"></script>
-  <script src="scripts/indexWeather.js"></script>
-  <script src="scripts/pageVisits.js"></script>
-  
+  <script src="scripts/getDates.js" defer></script>
+  <script src="scripts/indexWeather.js" defer></script>
+  <script src="scripts/pageVisits.js" defer></script>
 </body>
 </html>
 
