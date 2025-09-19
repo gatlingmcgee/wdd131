@@ -102,3 +102,8 @@ picture img {
 
 }
 
+  /* ---- Disable all pseudo-elements safely ---- */
+*::before,
+*::after {
+  content: none !important;
+}
