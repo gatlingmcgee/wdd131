@@ -32,19 +32,19 @@
 
 
   .hero {
-  position: static;      /* Stop it being absolute */
-  z-index: auto;         /* Normal stacking */
-  opacity: 1;            /* Fully opaque */
-  width: 100%;           /* Ensure full width */
-  margin-bottom: 20px;   /* Space below before content */
-}
+    position: static;
+    z-index: auto;
+    opacity: 1;
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
-.hero img {
-  opacity: 1;            /* Make the image solid */
-  height: auto;          /* Maintain aspect ratio */
-  object-fit: cover;     /* Keep it covering nicely */
-  max-width: 100%;
-}
+  .hero img {
+    opacity: 1;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+  }
 
 
 
