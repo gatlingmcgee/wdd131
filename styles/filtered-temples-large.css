@@ -17,6 +17,10 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
+  #menu li:not(:first-child) {
+    display: inline-block;
+  }
+
   img:hover {
     transform: scale(1.05);
   }
