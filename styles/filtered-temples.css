@@ -66,15 +66,25 @@ main {
   margin-bottom: 1rem;
 }
 
+.grid-container figure {
+  margin: 0;
+  text-align: center;
+  border: 1px solid rgb(14, 11, 11);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  background: rgb(230, 227, 227);
+}
+
+.grid-container figure img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
 .title {
   font-size: 2rem;
   font-weight: bold;
-}
-
-
-figure {
-  margin: 0;
-  text-align: center;
 }
 
 figcaption {
