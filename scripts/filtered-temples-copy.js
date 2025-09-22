@@ -6,7 +6,7 @@ const temples = [
     dedicated: "2005, August, 7",
     area: 11500,
     imageUrl:
-    "https://gatlingmcgee.com/week4/converted/aba-nigeria.webp"
+    "https://github.com/gatlingmcgee/wdd131/raw/main/week4/temple-images/converted/aba-nigeria.webp"
   },
   {
     templeName: "Manti Utah",
@@ -14,15 +14,15 @@ const temples = [
     dedicated: "1888, May, 21",
     area: 74792,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
-  },
-  {
+    "https://github.com/gatlingmcgee/wdd131/raw/main/week4/temple-images/converted/bentonville-arkansas.webp"
+  },  
+{
     templeName: "Payson Utah",
     location: "Payson, Utah, United States",
     dedicated: "2015, June, 7",
     area: 96630,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+    "https://churchofjesuschristtemples.org/assets/img/temples/payson-utah-temple/payson-utah-temple-62834-main.jpg"
   },
   {
     templeName: "Yigo Guam",
@@ -30,7 +30,7 @@ const temples = [
     dedicated: "2020, May, 2",
     area: 6861,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
+    "https://churchofjesuschristtemples.org/assets/img/temples/yigo-guam-temple/yigo-guam-temple-26495-main.jpg"
   },
   {
     templeName: "Washington D.C.",
@@ -38,7 +38,7 @@ const temples = [
     dedicated: "1974, November, 19",
     area: 156558,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
+    "https://churchofjesuschristtemples.org/assets/img/temples/washington-d.c.-temple/washington-d.c.-temple-14992-main.jpg"
   },
   {
     templeName: "Lima Perú",
@@ -46,7 +46,7 @@ const temples = [
     dedicated: "1986, January, 10",
     area: 9600,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
+    "https://churchofjesuschristtemples.org/assets/img/temples/lima-peru-temple/lima-peru-temple-12721-main.jpg"
   },
   {
     templeName: "Mexico City Mexico",
@@ -54,31 +54,7 @@ const temples = [
     dedicated: "1983, December, 2",
     area: 116642,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
-  },
-  {
-    templeName: "Oklahoma City",
-    location: "Oklahoma City, United States",
-    dedicated: "2000, July, 30",
-    area: 10890,
-    imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/oklahoma-city-oklahoma-temple/oklahoma-city-oklahoma-temple-11259-thumb.jpg"
-  },
-  {
-    templeName: "Bentonville Arkansas",
-    location: "Bentonville, United States",
-    dedicated: "2023, September, 17",
-    area: 28472,
-    imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/bentonville-arkansas-temple/bentonville-arkansas-temple-37868-thumb.jpg"
-  },
-  {
-    templeName: "San Diego California",
-    location: "San Diego, United States",
-    dedicated: "1993, April, 25",
-    area: 72000,
-    imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/san-diego-california-temple/san-diego-california-temple-62044-thumb.jpg"
+    "https://churchofjesuschristtemples.org/assets/img/temples/mexico-city-mexico-temple/mexico-city-mexico-temple-4060-main.jpg"
   },
 ];
 

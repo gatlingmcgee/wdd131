@@ -56,30 +56,7 @@ const temples = [
     imageUrl:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
   },
-  {
-    templeName: "Oklahoma City",
-    location: "Oklahoma City, United States",
-    dedicated: "2000, July, 30",
-    area: 10890,
-    imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/oklahoma-city-oklahoma-temple/oklahoma-city-oklahoma-temple-11259-thumb.jpg"
-  },
-  {
-    templeName: "Bentonville Arkansas",
-    location: "Bentonville, United States",
-    dedicated: "2023, September, 17",
-    area: 28472,
-    imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/bentonville-arkansas-temple/bentonville-arkansas-temple-37868-thumb.jpg"
-  },
-  {
-    templeName: "San Diego California",
-    location: "San Diego, United States",
-    dedicated: "1993, April, 25",
-    area: 72000,
-    imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/san-diego-california-temple/san-diego-california-temple-62044-thumb.jpg"
-  },
+
 ];
 
 // render temples
