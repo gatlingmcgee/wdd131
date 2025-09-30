@@ -1,37 +1,17 @@
-/* PASSWORD */
-const password = document.querySelector("#password");
-const confirm = document.querySelector("#confirm");
-const pfeedback = document.querySelector("#pfeedback");
+const products = [
+  { id: "fc-1888", name: "flux capacitor", averagerating: 4.5 },
+  { id: "fc-2050", name: "power laces", averagerating: 4.7 },
+  { id: "fs-1987", name: "time circuits", averagerating: 3.5 },
+  { id: "ac-2000", name: "low voltage reactor", averagerating: 3.9 },
+  { id: "jj-1969", name: "warp equalizer", averagerating: 5.0 }
+];
 
-confirm.addEventListener('focusout', controlar);
-
-function controlar() {
-    //console.log('inside the function')
-    if (password.value !== confirm.value) {
-        //console.log('no match')
-        password.value = ""
-        confirm.value = ""
-        password.focus()
-        pfeedback.textContent = "Values do not match. Please try again.";
-
-    } else {
-            //console.log('it is a match')
-            pfeedback.textContent = "";
-        }
-    }
-
-/* RANGE */
-const rangevalue = document.getElementById("rangevalue");
-const range = document.getElementById("range");
-
-range.addEventListener('change', displayRatingValue);
-range.addEventListener('input', displayRatingValue);
-
-function displayRatingValue() {
-    rangevalue.innerHTML = range.value;
-}
-
-
-function goBack() {
-	window.history.back();
-}
+document.addEventListener("DOMContentLoaded", () => {
+  const productSelect = document.getElementById("product");
+  products.forEach(product => {
+    const option = document.createElement("option");
+    option.value = product.id;
+    option.textContent = product.name;
+    productSelect.appendChild(option);
+  });
+});

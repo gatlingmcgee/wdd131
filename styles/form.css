@@ -125,3 +125,41 @@ footer {
     padding: .5rem 2%;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.star-rating {
+  direction: rtl;
+  display: inline-flex;
+  gap: 0.3em;
+}
+
+.star-rating input[type="radio"] {
+  display: none;
+}
+
+.star-rating label {
+  font-size: 2rem;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.star-rating input[type="radio"]:checked ~ label {
+  color: gold;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: orange;
+}

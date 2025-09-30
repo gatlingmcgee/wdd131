@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en-US">
 <head>
   <meta charset="UTF-8">
@@ -61,5 +61,41 @@
 
 
 
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Review Confirmation</title>
+  <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+  <header>
+    <h1>Thank You for Your Review!</h1>
+  </header>
+
+  <main>
+    <p>Your review has been submitted successfully.</p>
+    <p>Total reviews submitted: <span id="reviewCount"></span></p>
+  </main>
+
+  <footer>
+    <p>&copy;<span id="currentyear"></span> 🦈 <span>Sean Sonderegger</span> 🦈 <span>Oklahoma, USA</span></p>
+    <p><span id="lastmodified"></span></p>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      let count = localStorage.getItem("reviewCount");
+      count = count ? parseInt(count) + 1 : 1;
+      localStorage.setItem("reviewCount", count);
+      document.getElementById("reviewCount").textContent = count;
+      document.getElementById("currentYear").textContent = new Date().getFullYear();
+      document.getElementById("lastModified").textContent = `Last Modified: ${document.lastModified}`;
+    });
+  </script>
 </body>
 </html>
