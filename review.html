@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmation Thank You Page For The Submission and Join Form For Broken Arrow Chamber of Commerce</title>
+  <meta name="description" content=" Broken Arrow Chamber of Commerce Form - WDD 230 - Web Frontend Development - This page displays a thank you page for the form submission to join the Broken Arrow Oklahoma Chamber.">
+  <meta name="author" content="Sean Sonderegger">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="icon" href="images/ba.ico">
+  <meta property="og:title" content="Sean Sonderegger - Thank You Page For Joining Broken Arrow Chamber Site">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gatlingmcgee.github.io/wdd230/chamber/thankyou.html">
+  <meta property="og:image" content="https://dynl.mktgcdn.com/p/uYHpJIwFgd_5vfA9Yej9DtH9_cAEcR_hYPH_rCL98Tk/600x337.jpg">
+</head>
+<body>
+
+	<header>
+        <h1>Join Comfirmation For Chamber of Commerce</h1>
+        <h2>Submition Form Comfirmation</h2>
+
+        <a href="#" id="hamburger-menu"></a>
+        <nav class = "navigation">
+          <a href="index.html">Home</a>
+          <a href="discover.html">Discover</a>
+          <a href="directory.html">Directory</a>
+          <a href="join.html">Join</a>
+          <a class = "active" href="thankyou.html">Comfirmation</a>
+
+        </nav>
+      </header>
+
+
+    
+    <main>
+        <h2>Your submition is complete</h2>
+        <p>Thank you for your joining. We value you, enjoy your benifits!</p>
+
+        <input type="hidden" id="submissionTime" name="submissionTime">
+    </main>
+
+    <footer>
+        &copy; 2018 &bull; Sean Sonderegger &bull; 123-555-6789
+    </footer>
+
+    <script src="scripts/timeStamp.js"></script>
+
+    <div>
+        <button onclick="goBack()">Go Back</button>
+        <script>
+            function goBack() {
+            window.history.back();
+            }
+        </script>
+      </div>
+
+
+
+</body>
+</html>

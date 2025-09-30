@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sean Sonderegger">
+  <meta name="description" content="This WDD 131 - Dynamic Web Fundamentals form page with proper HTML structure, and responsive design setup. It includes course requirments for week five.">
+  <title>WDD 131 - Dynamic Web Fundamentals | Sean Sonderegger | W05 Assignment: Fome Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+  <header>
+    <div id="mode">
+      🌙
+    </div>
+    <img class="pic" src="images/ME-min.webp" alt="Sean Sonderegger Profile Pic">
+    <h1 class = "name">Sean Sonderegger</h1>
+    <a id="hamburger-menu" href="#"></a>
+    <nav class = "navigation">
+      <a href="index.html">Home</a>
+      <a href="#">Chamber</a>
+      <a href="http://127.0.0.1:5500/week01/chamber-site-plan.html">Site Plan</a>
+      <a class = "active" href="form.html">Form</a>
+    </nav>
+  </header>
+
+
+    <main>
+        <form method="get" action="record.html" class="wf1">
+            <fieldset>
+                <legend>User Input</legend>
+                <label>Username:* <input type="text" id="username" name="username" required></label>
+                <label>Password:* <input type="password" id="password" name="password" required pattern="(?=.*\d)(?=.*[a-zA-Z\s]).{8,}" title="Password must be at least eight (8) characters long and can only be alpha-numeric"></label>
+                <label>Confirm Password:* <input type="password" id="confirm" name="password" required pattern="(?=.*\d)(?=.*[a-zA-Z\s]).{8,}" title="Password must be at least eight (8) characters long and can only be alpha-numeric"> required></label>
+                <div id="pfeedback"></div>
+                <label>Email: <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" title="Please enter a valid email address"></label>
+
+                <label for="range">Page Rating: <input type="range" id="range" name="range" min="0" max="10" value="0" step="1" list="rangevalues"></label>
+                <div id="rangevalue">0</div>
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </fieldset>
+
+            <input type="submit" value="Report Page Rating">
+        </form>
+    </main>
+
+
+    <div>
+        <footer>
+            <p>&copy; <span id="currentYear"></span> Sean Sonderegger <span class="country"> United States
+            <img class="flagpic" src="images/usaflag-min.webp" alt="USA Flag Pic"></span>
+            </p>
+            <p id="lastModified" class="highlight"></p>
+        </footer>
+    </div>
+    
+      <script src="scripts/formvalidation.js"></script>
+
+      <div>
+        <button onclick="goBack()">Go Back</button>
+      </div>
+    
+    </body>
+    </html>
+
+
