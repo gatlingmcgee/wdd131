@@ -1,48 +1,19 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-
-/*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-
 /*----------- BODY --------------*/
 body {
     font-size: 16px;
     font-family: Verdana, sans-serif;
+    background-color: #c2b0b0;
 }
-
 
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
-}
-header h1 {margin: 0;}
-header h2 {margin: 0; font-weight: normal;}
-
-/*----------- NAVIGATION --------------*/
-nav {
-    background-color: #666;
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-nav ul li {border-bottom: solid 1px #333;}
-nav ul li a {
-    display: block;
-    background-color: #444;
-    color: #eee;
-    padding: .5rem 0;
-    text-decoration: none;
-    font-size: .9rem;
+    background-color: rgb(58, 9, 9);
+    color: whitesmoke;
     text-align: center;
+    padding: 2px;
 }
-nav ul li.active a {
-    background-color: #000;
-    color: #fff;
-}
+
 /*----------- MAIN --------------*/
 main {
     padding: 0 2%;
@@ -50,6 +21,7 @@ main {
 }
 
 /*----------- Form --------------*/
+
 .wf1 fieldset {
     margin: 2rem 0;
     border: solid 1px #ddd;
@@ -57,41 +29,30 @@ main {
     border-radius: 6px;
 }
 
-.wf1 legend {
-    color: #445ba9;
-    padding: 0 .5rem;
-}
-
 .wf1 label {
     display: block;
-    padding-top: 1rem;
-    color: #f00707;
+    padding-top: .75rem;
+    color: black;
     font-size: .9rem;
 }
 
-.wf1 div {
-    padding-top: 1rem;
-    color: #445ba9;
-    font-size: .9rem;
+.fieldheadings {
+    margin-top: 20px;
 }
 
 .wf1 input[type="text"],
-.wf1 input[type="tel"],
-.wf1 input[type="email"],
-.wf1 input[type="url"],
 .wf1 input[type="date"],
-.wf1 select,
-.wf1 input[type="number"]
+.wf1 select
 {
     background-color: #eee;
     display: block;
-    border: solid 1px #999;
+    border: solid 1px #420707;
     border-radius: 6px;
     padding: .75rem;
-    color: #555;
+    color: #0c0101;
     width: 100%;
     max-width: 400px;
-    appearance: none;
+    box-sizing: border-box;
 }
 
 .wf1 input[type="radio"],
@@ -101,7 +62,7 @@ main {
 
 .wf1 input[type="submit"] {
     border: none;
-    background-image: linear-gradient(#9c2c13, #6f200e);
+    background-image: linear-gradient(#28139c, #0e106f);
     color: #fff;
     border-radius: 6px;
     padding: .8rem;
@@ -111,38 +72,27 @@ main {
     box-shadow: 1px 1px 4px #999;
 }
 
-.wf1 input:required {
-    border-right: solid 8px red;
+.wf1 input:required,
+.wf1 select:required {
+    border-bottom: solid 8px red;
 }
 
-.wf1 input:required:valid {
-    border-right: solid 8px green;
+.wf1 input:required:valid,
+.wf1 select:required:valid {
+    border-bottom: solid 8px green;
 }
 
-/*----------- FOOTER --------------*/
-footer {
-    background-color: #ddd;
-    padding: .5rem 2%;
-    text-align: center;
+.optionalcolor {
+    color: blue;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*----------- STAR RATING --------------*/
 .star-rating {
-  direction: rtl;
   display: inline-flex;
-  gap: 0.3em;
+  gap: 0.5rem;
+  flex-direction: row-reverse;
 }
+
 
 .star-rating input[type="radio"] {
   display: none;
@@ -150,9 +100,10 @@ footer {
 
 .star-rating label {
   font-size: 2rem;
-  color: #ccc;
+  color: whitesmoke;
   cursor: pointer;
   transition: color 0.2s;
+  padding: 0;
 }
 
 .star-rating input[type="radio"]:checked ~ label {
@@ -163,3 +114,13 @@ footer {
 .star-rating label:hover ~ label {
   color: orange;
 }
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: rgb(58, 9, 9);
+    padding: .5rem 2%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+

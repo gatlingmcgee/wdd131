@@ -7,11 +7,25 @@ const products = [
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
-  const productSelect = document.getElementById("product");
-  products.forEach(product => {
-    const option = document.createElement("option");
-    option.value = product.id;
-    option.textContent = product.name;
-    productSelect.appendChild(option);
-  });
+    const productSelect = document.getElementById("product");
+    products.forEach(product => {
+        const option = document.createElement("option");
+        option.value = product.id;
+        option.textContent = product.name;
+        productSelect.appendChild(option);
+    });
+
+    const form = document.querySelector("form");
+    form.addEventListener("submit", function(e) {
+        const ratingChecked = document.querySelector('input[name="rating"]:checked');
+        if (!ratingChecked) {
+            alert("Please select a star rating.");
+            e.preventDefault();
+        }
+    });
+
+
+
+
+
 });
