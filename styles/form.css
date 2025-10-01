@@ -2,14 +2,14 @@
 body {
     font-size: 16px;
     font-family: Verdana, sans-serif;
-    background-color: #c2b0b0;
+    background-color: #437d84;
 }
 
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: rgb(58, 9, 9);
-    color: whitesmoke;
+    background-color: #0d2d30;
+    color: white;
     text-align: center;
     padding: 2px;
 }
@@ -24,7 +24,7 @@ main {
 
 .wf1 fieldset {
     margin: 2rem 0;
-    border: solid 1px #ddd;
+    border: solid 1px white;
     padding: .5rem 2%;
     border-radius: 6px;
 }
@@ -44,12 +44,12 @@ main {
 .wf1 input[type="date"],
 .wf1 select
 {
-    background-color: #eee;
+    background-color: white;
     display: block;
     border: solid 1px #420707;
     border-radius: 6px;
     padding: .75rem;
-    color: #0c0101;
+    color: black;
     width: 100%;
     max-width: 400px;
     box-sizing: border-box;
@@ -63,7 +63,7 @@ main {
 .wf1 input[type="submit"] {
     border: none;
     background-image: linear-gradient(#28139c, #0e106f);
-    color: #fff;
+    color: white;
     border-radius: 6px;
     padding: .8rem;
     width: 96%;
@@ -82,10 +82,6 @@ main {
     border-bottom: solid 8px green;
 }
 
-.optionalcolor {
-    color: blue;
-}
-
 /*----------- STAR RATING --------------*/
 .star-rating {
   display: inline-flex;
@@ -100,7 +96,7 @@ main {
 
 .star-rating label {
   font-size: 2rem;
-  color: whitesmoke;
+  color: white;
   cursor: pointer;
   transition: color 0.2s;
   padding: 0;
@@ -117,7 +113,7 @@ main {
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: rgb(58, 9, 9);
+    background-color: #0d2d30;
     padding: .5rem 2%;
     text-align: center;
     color: whitesmoke;
