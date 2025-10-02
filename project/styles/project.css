@@ -1,31 +1,43 @@
-/* Basic reset and global styles */
+:root {
+  --color-primary: #F4A261;
+  --color-secondary: #2A9D8F;
+  --color-text: #333;
+  --color-bg: #f9f9f9;
+  --color-heading: #264653;
+
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Open Sans', Arial, sans-serif;
+}
+
+/* Reset */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* Body */
 body {
-  font-family: 'Open Sans', Arial, sans-serif;
-  line-height: 1.6;
-  color: #333;
-  background-color: #f9f9f9;
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
   padding: 20px;
+  line-height: 1.5;
 }
 
 /* Header */
 header {
-  background-color: #2A9D8F;
+  background-color: var(--color-secondary);
   color: white;
   text-align: center;
-  padding: 1.5em;
-  border-radius: 10px;
+  padding: 1em;
   margin-bottom: 20px;
+  border-radius: 8px;
 }
 
 h1, h2 {
-  font-family: 'Montserrat', sans-serif;
-  color: #264653;
+  font-family: var(--font-heading);
+  color: var(--color-heading);
   margin-bottom: 10px;
 }
 
@@ -33,46 +45,50 @@ h1 {
   color: white;
 }
 
+/* Sections */
 section {
   background: white;
-  border-radius: 10px;
-  padding: 15px 20px;
+  padding: 15px;
   margin-bottom: 20px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
 }
 
+/* Lists */
 ul {
   margin-left: 20px;
 }
 
+/* Color samples */
 .color-sample {
   display: inline-block;
   width: 20px;
   height: 20px;
-  border-radius: 5px;
-  margin-right: 8px;
+  border-radius: 4px;
+  margin-right: 6px;
   vertical-align: middle;
 }
 
 .primary {
-  background-color: #F4A261;
+  background-color: var(--color-primary);
 }
 
 .secondary {
-  background-color: #2A9D8F;
+  background-color: var(--color-secondary);
 }
 
+/* Wireframes */
 .wireframe {
   text-align: center;
-  margin-top: 15px;
-}
-
-.wireframe img {
-  border: 2px solid #ddd;
-  border-radius: 10px;
   margin-top: 10px;
 }
 
+.wireframe img {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Footer */
 footer {
   text-align: center;
   margin-top: 30px;

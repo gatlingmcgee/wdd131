@@ -100,6 +100,7 @@ main {
   cursor: pointer;
   transition: color 0.2s;
   padding: 0;
+  text-shadow: 0 0 10px black, 0 0 20px black;
 }
 
 .star-rating input[type="radio"]:checked ~ label {
@@ -111,6 +112,19 @@ main {
   color: orange;
 }
 
+.wf1 textarea {
+    background-color: white;
+    display: block;
+    border: solid 1px #420707;
+    border-radius: 6px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    resize: vertical; /* allows user to resize vertically only */
+}
+
 /*----------- FOOTER --------------*/
 footer {
     background-color: #0d2d30;
@@ -119,4 +133,6 @@ footer {
     color: whitesmoke;
 }
 
-
+.optinal {
+    color: white;
+}
