@@ -1,15 +1,11 @@
 :root {
-  --color-primary: #F4A261;
-  --color-secondary: #2A9D8F;
-  --color-text: #333;
-  --color-bg: #f9f9f9;
-  --color-heading: #264653;
+  --color-primary: #f3e1d2;
+  --color-secondary: #11695f;
 
   --font-heading: 'Montserrat', sans-serif;
   --font-body: 'Open Sans', Arial, sans-serif;
 }
 
-/* Reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -19,10 +15,10 @@
 /* Body */
 body {
   font-family: var(--font-body);
-  background-color: var(--color-bg);
-  color: var(--color-text);
+  color: black;
   padding: 20px;
   line-height: 1.5;
+  background-color: var(--color-primary);
 }
 
 /* Header */
@@ -37,7 +33,6 @@ header {
 
 h1, h2 {
   font-family: var(--font-heading);
-  color: var(--color-heading);
   margin-bottom: 10px;
 }
 
@@ -47,33 +42,9 @@ h1 {
 
 /* Sections */
 section {
-  background: white;
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 8px;
-}
-
-/* Lists */
-ul {
-  margin-left: 20px;
-}
-
-/* Color samples */
-.color-sample {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border-radius: 4px;
-  margin-right: 6px;
-  vertical-align: middle;
-}
-
-.primary {
-  background-color: var(--color-primary);
-}
-
-.secondary {
-  background-color: var(--color-secondary);
 }
 
 /* Wireframes */
@@ -83,7 +54,7 @@ ul {
 }
 
 .wireframe img {
-  border: 1px solid #ccc;
+  border: 1px solid white;
   border-radius: 8px;
   margin-top: 10px;
 }
@@ -92,6 +63,9 @@ ul {
 footer {
   text-align: center;
   margin-top: 30px;
+  font-family: var(--font-heading);
   font-size: 0.9em;
-  color: #555;
+  color: white;
+  background-color: var(--color-secondary);
+  height: 60px;
 }
