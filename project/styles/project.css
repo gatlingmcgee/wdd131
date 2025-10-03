@@ -56,8 +56,19 @@ section {
   border: 1px solid white;
   border-radius: 8px;
   margin-top: 10px;
-  max-width: 250px;
   height: auto;
+}
+
+.mobile-wireframe {
+  max-width: 250px;
+}
+
+.desktop-wireframe {
+  max-width: 500px;
+}
+
+.logo-wireframe {
+  max-width: 200px;
 }
 
 /* Footer */
@@ -69,4 +80,10 @@ footer {
   color: white;
   background-color: var(--color-secondary);
   height: 60px;
+}
+
+@media (max-width: 600px) {
+  .desktop-wireframe {
+    max-width: 300px;
+  }
 }
