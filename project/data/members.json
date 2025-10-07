@@ -5,7 +5,7 @@
       "address": "Broken Arrow, OK 74012",
       "phone": "918-286-6766",
       "url": "https://www.petfinder.com/dog/brad-78614923/ok/broken-arrow/legacy-of-hope-dog-rescue-ok333/",
-      "logopath": "project/images/dogs/dog1.jpg",
+      "logopath": "images/dog1.jpg",
       "level": "Bronze"
     },
     {
@@ -13,7 +13,7 @@
       "address": "Broken Arrow, OK 74012",
       "phone": "918-806-6999",
       "url": "https://www.petfinder.com/dog/pope-78584526/ok/broken-arrow/memphis-street-animal-rescue-ok539/",
-      "logopath": "images/dinner.webp",
+      "logopath": "images/dogs/dog1.jpg",
       "level": "Silver"
     },
     {
@@ -21,105 +21,104 @@
       "address": "Broken Arrow, OK 74012",
       "phone": "918-940-2770",
       "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
-      "logopath": "images/pizza.webp",
+      "logopath": "images/dogs/dog1.jpg",
       "level": "Gold"
-    },
-    {
-      "name": "Arrow Fowers & Gifts",
-      "address": "213 S. Main St. Broken Arrow, OK 74012",
-      "phone": "918-251-7484",
-      "url": "https://www.arrowflowers.com/",
-      "logopath": "images/flowers.webp",
-      "level": "Silver"
-    },
-    {
-      "name": "Arrow Springs Chapel and Event Center",
-      "address": "11240 S. 241st E. Ave. Broken Arrow, OK 74012",
-      "phone": "918-449-9603",
-      "url": "https://www.arrowspringschapel.org/",
-      "logopath": "images/chapel.webp",
-      "level": "Gold"
-    },
-    {
-      "name": "Smokies Hickory House",
-      "address": "5251 E. Kenosha Broken Arrow, OK 74014",
-      "phone": "918-357-1113",
-      "url": "https://www.smokieshickoryhouse.com/",
-      "logopath": "images/smokies.webp",
-      "level": "Gold"
-    },
-    {
-      "name": "Bass Pro Shop",
-      "address": "101 Bass Pro Drive Broken Arrow, OK 74012",
-      "phone": "918-355-7580",
-      "url": "https://www.basspro.com/shop/en#",
-      "logopath": "images/basspro.webp",
-      "level": "Gold"
-    },
-
-    {
-      "name": "Brad",
-      "address": "Broken Arrow, OK 74012",
-      "phone": "918-286-6766",
-      "url": "https://www.petfinder.com/dog/brad-78614923/ok/broken-arrow/legacy-of-hope-dog-rescue-ok333/",
-      "logopath": "project/images/dogs/dog1.jpg",
-      "level": "Bronze"
-    },
-    {
-      "name": "Pope",
-      "address": "Broken Arrow, OK 74012",
-      "phone": "918-806-6999",
-      "url": "https://www.petfinder.com/dog/pope-78584526/ok/broken-arrow/memphis-street-animal-rescue-ok539/",
-      "logopath": "images/dinner.webp",
-      "level": "Silver"
     },
     {
       "name": "Moonshine",
       "address": "Broken Arrow, OK 74012",
       "phone": "918-940-2770",
       "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
-      "logopath": "images/pizza.webp",
+      "logopath": "images/dogs/dog1.jpg",
       "level": "Gold"
     },
     {
-      "name": "Arrow Fowers & Gifts",
-      "address": "213 S. Main St. Broken Arrow, OK 74012",
-      "phone": "918-251-7484",
-      "url": "https://www.arrowflowers.com/",
-      "logopath": "images/flowers.webp",
-      "level": "Silver"
-    },
-    {
-      "name": "Arrow Springs Chapel and Event Center",
-      "address": "11240 S. 241st E. Ave. Broken Arrow, OK 74012",
-      "phone": "918-449-9603",
-      "url": "https://www.arrowspringschapel.org/",
-      "logopath": "images/chapel.webp",
+      "name": "Moonshine",
+      "address": "Broken Arrow, OK 74012",
+      "phone": "918-940-2770",
+      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
+      "logopath": "images/dogs/dog1.jpg",
       "level": "Gold"
     },
     {
-      "name": "Smokies Hickory House",
-      "address": "5251 E. Kenosha Broken Arrow, OK 74014",
-      "phone": "918-357-1113",
-      "url": "https://www.smokieshickoryhouse.com/",
-      "logopath": "images/smokies.webp",
+      "name": "Moonshine",
+      "address": "Broken Arrow, OK 74012",
+      "phone": "918-940-2770",
+      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
+      "logopath": "images/dogs/dog1.jpg",
       "level": "Gold"
     },
     {
-      "name": "Bass Pro Shop",
-      "address": "101 Bass Pro Drive Broken Arrow, OK 74012",
-      "phone": "918-355-7580",
-      "url": "https://www.basspro.com/shop/en#",
-      "logopath": "images/basspro.webp",
+      "name": "Moonshine",
+      "address": "Broken Arrow, OK 74012",
+      "phone": "918-940-2770",
+      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
+      "logopath": "images/dogs/dog1.jpg",
       "level": "Gold"
     },
     {
-      "name": "Bamboo Garden",
-      "address": "8210 South Elm Place Broken Arrow, OK 74012",
-      "phone": "918-451-8898",
-      "url": "https://www.bamboogardenasiandiner.com/",
-      "logopath": "images/bamboo.webp",
-      "level": "Silver"
+      "name": "Moonshine",
+      "address": "Broken Arrow, OK 74012",
+      "phone": "918-940-2770",
+      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
+      "logopath": "images/dogs/dog1.jpg",
+      "level": "Gold"
+    },
+    {
+      "name": "Moonshine",
+      "address": "Broken Arrow, OK 74012",
+      "phone": "918-940-2770",
+      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
+      "logopath": "images/dogs/dog1.jpg",
+      "level": "Gold"
+    },
+    {
+      "name": "Moonshine",
+      "address": "Broken Arrow, OK 74012",
+      "phone": "918-940-2770",
+      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
+      "logopath": "images/dogs/dog1.jpg",
+      "level": "Gold"
+    },
+    {
+      "name": "Moonshine",
+      "address": "Broken Arrow, OK 74012",
+      "phone": "918-940-2770",
+      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
+      "logopath": "images/dogs/dog1.jpg",
+      "level": "Gold"
+    },
+    {
+      "name": "Moonshine",
+      "address": "Broken Arrow, OK 74012",
+      "phone": "918-940-2770",
+      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
+      "logopath": "images/dogs/dog1.jpg",
+      "level": "Gold"
+    },
+    {
+      "name": "Moonshine",
+      "address": "Broken Arrow, OK 74012",
+      "phone": "918-940-2770",
+      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
+      "logopath": "images/dogs/dog1.jpg",
+      "level": "Gold"
+    },
+    {
+      "name": "Moonshine",
+      "address": "Broken Arrow, OK 74012",
+      "phone": "918-940-2770",
+      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
+      "logopath": "images/dogs/dog1.jpg",
+      "level": "Gold"
+    },
+    {
+      "name": "Moonshine",
+      "address": "Broken Arrow, OK 74012",
+      "phone": "918-940-2770",
+      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
+      "logopath": "images/dogs/dog1.jpg",
+      "level": "Gold"
     }
   ]
 }
