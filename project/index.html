@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 131 - Dynamic Web Fundamentals | Sean Sonderegger | Final Project Website</title>
+  <meta name="description" content="This WDD 131 - Dynamic Web Fundamentals website page with ????????????.">
+  <meta name="author" content="Sean Sonderegger">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="icon" href="images/ba.ico">
+</head>
+<body>
+  
+  <header>
+    <img class="logo" src="images/logo.png" alt="Fur Ever Home Logo">
+    <a href="adopt.html" class="cta-button">Adopt A Pet</a>
+    <h1>Fur Ever Home Adoption Site</h1>
+    <a href="#" id="hamburger-menu"></a>
+    <nav class = "navigation">
+      <a class = "active" href="index.html">Home</a>
+      <a href="dogdirectory.html">Available Dogs</a>
+      <a href="catdirectory.html">Available Cats</a>
+      <a href="discover.html">Volenteers and Donations</a>
+      <a href="adopt.html">Adopt A Pet</a>
+      <a href="siteplan.html">Siteplan</a>
+    </nav>
+  </header>
+
+  <main>
+    <img class="hero-image" src="images/dogs/dog11.jpg" alt="Photo of main street broken">
+    <div class = "grid">
+      <section>
+        <h2>Upcoming volenteer and Adoption Events</h2>
+        <aside class="aside">
+        <p><span>Donation Drive Kickoff: </span>March 15th</p>
+        <p><span>Volunteer Orientation Session: </span>March 22nd</p>
+        <p><span>Community Giving Workshop: </span>April 5th</p>
+        <p><span>Pet Shelter Info Session: </span>April 12th</p>
+        <p><span>Monthly Donation Awareness Event: </span>June 10th</p>
+        <p><span>Neighborhood Volunteer Meetup: </span>July 8th</p>
+        <p><span>Back-to-School Charity Info Day: </span>August 20th</p>
+        <p><span>Fall Donation Drive Info Session: </span>September 14th</p>
+        <p><span>Volunteer Opportunities Fair: </span>October 6th</p>
+        </aside>
+      </section>
+      <section>
+        <h2>Current Weather</h2>
+        <figure class="current-temp">
+          <p>Temperature: <span id="current-temp"></span></p>
+          <p><span id="current-desc"></span></p>
+        </figure>
+          <h2>3-day Forecast</h2>
+          <div id="forecast">
+            <figure id="day1">
+              <p class="day"></p>
+              <div class="centerstuff">
+                <img class="icon" src="images/weather-icon.webp" alt="Wether Icon">
+              </div>
+              <p class="temperature"></p>
+              <figcaption class="description"></figcaption>
+            </figure>
+            <figure id="day2">
+              <p class="day"></p>
+              <div class="centerstuff">
+                <img class="icon" src="images/weather-icon.webp" alt="Wether Icon">
+              </div>
+              <p class="temperature"></p>
+                <figcaption class="description"></figcaption>
+            </figure>
+            <figure id="day3">
+              <p class="day"></p>
+              <div class="centerstuff">
+                <img class="icon" src="images/weather-icon.webp" alt="Wether Icon">
+              </div>
+              <p class="temperature"></p>
+              <figcaption class="description"></figcaption>
+            </figure>
+          </div>
+        </section>
+    </div>
+    <br>
+    <div class="spotlightgrid">
+      <div class="spotlight-card" id="spotlight-card-1">
+        <h3>Business Title</h3>
+        <p>Phone: </p>
+        <p><a href="#" target="_blank">Website</a></p>
+        <img src="images/business-logo.webp" alt="Logo">
+      </div>
+      <div class="spotlight-card" id="spotlight-card-2">
+        <h3>Business Title</h3>
+        <p>Phone: </p>
+        <p><a href="#" target="_blank">Website</a></p>
+        <img src="images/business-logo.webp" alt="Logo">
+      </div>
+      <div class="spotlight-card" id="spotlight-card-3">
+        <h3>Business Title</h3>
+        <p>Phone: </p>
+        <p><a href="#" target="_blank">Website</a></p>
+        <img src="images/business-logo.webp" alt="Logo">
+      </div>
+    </div>
+  </main>
+
+<footer>
+  <div class="footerText">
+    <p>&copy; <span id="currentYear"></span> <span>Email: example_email@aol.com Phone# 555-555-1234 - </span> Sean Sonderegger <span class="discription"> WDD 131 - Dynamic Web Fundamentals Project Assignment</span>
+    <p id="lastModified"></p>
+  </div>
+</footer>
+
+
+
+<script src="scripts/hamburger.js"></script>
+<script src="scripts/spotlights.js"></script>
+<script src="scripts/weather.js"></script>
+<script src="scripts/modifiedDates.js"></script>
+
+</body>
+</html>

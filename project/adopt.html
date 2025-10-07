@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 131 - Dynamic Web Fundamentals | Sean Sonderegger | Final Project Website</title>
+  <meta name="description" content="This WDD 131 - Dynamic Web Fundamentals website page with ????????????.">
+  <meta name="author" content="Sean Sonderegger">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="icon" href="images/ba.ico">
+</head>
+<body>
+  <header>
+    <a href="adopt.html" class="cta-button">Adopt A Pet</a>
+    <h1>Fur Ever Home Adoption Site</h1>
+    <a href="#" id="hamburger-menu"></a>
+    <nav class = "navigation">
+      <a href="index.html">Home</a>
+      <a href="dogdirectory.html">Available Dogs</a>
+      <a href="catdirectory.html">Available Cats</a>
+      <a href="discover.html">Volenteers and Donations</a>
+      <a class = "active" href="adopt.html">Adopt A Pet</a>
+      <a href="siteplan.html">Siteplan</a>
+    </nav>
+  </header>
+
+  <main>
+    <form method="get" action="thankyou.html" class="user-info">
+      <fieldset>
+          <legend>Application Form</legend>
+          <label>First Name:* <input type="text" id="fname" name="fname" required></label>
+          <label>Last Name:* <input type="text" id="lname" name="lname" required></label>
+          <label>Title or Position: <input type="text" id="title" name="title" pattern="[a-zA-Z\s\-].{7,}" title="only use alpha characters, hyphens, and spaces with a minimum of seven characters"></label>
+          <label>Email:* <input type="email" id="email" name="email" required placeholder="example_email@email.com"></label>
+          <label>Phone Number:* <input type="tel" id="phone" name="phone" required></label>
+          <label>Business/Organization's Name:* <input type="text" id="business" name="business" required></label>
+          <div class="container">
+              <div>Membership Level</div>
+              <div class="box">
+                <div class="content">
+                  <label><input type="radio" name="membership" value="np">Non-Profit Membership</label>
+                    <ul>
+                      <li>Free For Non-Profit Business and Organizations</li>
+                      <li>Quarterly Newsletter</li>
+                      <li>Training Sessions</li>
+                      <li class="cost">Free</li>
+                    </ul>
+                </div>
+                <div class="content">
+                  <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                    <ul>
+                      <li>Access to Special Events</li>
+                      <li>Quarterly Newsletter</li>
+                      <li>Training Sessions</li>
+                      <li>Discounts on Advertising</li>
+                      <li class="cost">$10.00 Monthly</li>
+                    </ul>
+                </div>  
+                <div class="content">
+                  <label><input type="radio" name="membership" value="silver">Silver Membership</label>
+                    <ul>
+                      <li>Access to Special Events</li>
+                      <li>Quarterly Newsletter</li>
+                      <li>Training Sessions</li>
+                      <li>Discounts on Advertising</li>
+                      <li>Prioroty Tech Support</li>
+                      <li class="cost">$15.00 Monthly</li>
+                    </ul>
+                </div>
+                <div class="content">
+                  <label><input type="radio" name="membership" value="gold">Gold Membership</label>
+                    <ul>
+                      <li>Access to Special Events</li>
+                      <li>Quarterly Newsletter</li>
+                      <li>Training Sessions</li>
+                      <li>Discounts on Advertising</li>
+                      <li>Prioroty Tech Support</li>
+                      <li>VIP Tech Support</li>
+                      <li>Personal Advertising Manager</li>
+                      <li class="cost">$20.00 Monthly</li>
+                    </ul>
+                </div>    
+                  
+
+              </div>
+          </div>
+          <label>Business/Organization's Description:</label>
+          <textarea id="description" name="description" rows="3" cols="64"></textarea>
+
+          <input type="hidden" id="submissionTime" name="submissionTime">
+
+      </fieldset>
+
+      <input type="submit" value="Send Application">
+    </form>
+  </main>
+<footer>
+  <div class="footerText">
+    <p>&copy; <span id="currentYear"></span> <span>Email: example_email@aol.com Phone# 555-555-1234 - </span> Sean Sonderegger <span class="discription"> WDD 230 - Web Frontend Development Project Assignment</span>
+    <p id="lastModified"></p>
+  </div>
+</footer>
+
+<script src="scripts/hamburger.js"></script>
+<script src="scripts/timeStamp.js"></script>
+<script src="scripts/back.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 131 - Dynamic Web Fundamentals | Sean Sonderegger | Final Project Website</title>
+  <meta name="description" content="This WDD 131 - Dynamic Web Fundamentals website page with ????????????.">
+  <meta name="author" content="Sean Sonderegger">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="icon" href="images/ba.ico">
+</head>
+<body>
+  <header>
+    <a href="adopt.html" class="cta-button">Adopt A Pet</a>
+    <h1>Fur Ever Home Adoption Site</h1>
+    <a href="#" id="hamburger-menu"></a>
+    <nav class = "navigation">
+      <a href="index.html">Home</a>
+      <a href="dogdirectory.html">Available Dogs</a>
+      <a href="catdirectory.html">Available Cats</a>
+      <a class = "active" href="discover.html">Volenteers and Donations</a>
+      <a href="adopt.html">Adopt A Pet</a>
+      <a href="siteplan.html">Siteplan</a>
+    </nav>
+  </header>
+  <main class="side-bar">
+    <div class="grid-side-bar">
+      <div class="left-column">
+
+        <section id="visit-message">
+          <h2 class = "message">Welcome! Let us know if you have any questions.</h2>
+            <dl>
+              <dt>Number of Page Visits:</dt>
+              <dd>
+                <p><span class="visits"></span></p>
+              </dd>
+            </dl>
+        </section>
+
+        <aside>
+          <h2>Statistical Data</h2>
+            <p><span>Population: </span>117,911</p>
+            <p><span>Population Per Squre Mile: </span>1803.4</p>
+            <p><span>Elevation: </span>755 ft</p>
+            <p><span>Land Area Per Squre Mile: </span>62.96</p>
+            <p><span>GPD Per Capita: </span>17,159</p>
+        </aside>
+        <aside class="aside">
+          <h2>Attractions</h2>
+            <p>BOK Center</p>
+            <p>Gathering Place</p>
+            <p>PAC</p>
+            <p>Tiger Stadium</p>
+            <p>OneOK Field</p>
+            <p>Route 66</p>
+        </aside>
+        <aside class="aside">
+          <h2>Up Coming Events</h2>
+            <p><span>Bassmaster Classic: </span>March 22nd</p>
+            <p><span>Blake Shelton: </span>March 30th</p>
+            <p><span>Harlem Globetrotters: </span>April 7th</p>
+            <p><span>Jennifer Lopez: </span>July 24th</p>
+            <p><span>Chalk It Up: </span>September 29th - October 1st</p>
+            <p><span>Rose Festival: </span>September 29th - October 1st</p>
+            <p><span>Rose Kites Over Broken Arrow: </span>October 1st</p>
+            <p><span>Cool Grilles Classic Car Show: </span>October 14th</p>
+            <p><span>Green Country Hot Air Balloon Festival: </span>October 27th - 28th</p>
+        </aside>
+      </div>
+    </div>
+    
+    <div class="right-column-photo-gallery">
+      <div class="photo-title">
+        <h2>Photo Gallery</h2>
+      </div>
+        <div class="photo-control">
+          <img src="images/discovery/ba-highschool-min.webp" alt="Image of Broken Arrow High School" loading="lazy" class="photo-control-img">
+          <p>Broken Arrow High School</p>
+        </div>
+        <div class="photo-control">
+          <img src="images/discovery/bok-min.webp" alt="Image of BOK Center" class="photo-control-img" loading="lazy">
+          <p>BOK Center</p>
+        </div>
+        <div class="photo-control">
+          <img src="images/discovery/Gathering-Place-min.webp" alt="Image of The Gathering Place" class="photo-control-img" loading="lazy">
+          <p>The Gathering Place</p>
+        </div>
+        <div class="photo-control">
+          <img src="images/discovery/oneok-field-min.webp" alt="Image of OneOK Field" loading="lazy" class="photo-control-img">
+          <p>OneOK Field</p>
+        </div>
+        <div class="photo-control">
+          <img src="images/discovery/pac-min.webp" alt="Image of Preforming Arts Center" class="photo-control-img" loading="lazy">
+          <p>Preforming Arts Center</p>
+        </div>
+        <div class="photo-control">
+          <img src="images/discovery/rhema-lights-min.webp" alt="Image of Rhema Lights" class="photo-control-img" loading="lazy">
+          <p>Rhema Lights</p>
+        </div>
+        <div class="photo-control">
+          <img src="images/discovery/rooster-days-min.webp" alt="Image of Rooster Days Parade" loading="lazy" class="photo-control-img">
+          <p>Rooster Days Parade</p>
+        </div>
+        <div class="photo-control">
+          <img src="images/discovery/route-66-min.webp" alt="Image of Route 66" loading="lazy" class="photo-control-img">
+          <p>Route 66</p>
+        </div>
+        <div class="photo-control">
+          <img src="images/discovery/state-fair-min.webp" alt="Image of Tulsa State Fair" loading="lazy" class="photo-control-img">
+          <p>Tulsa State Fair</p>
+        </div>
+        <div class="photo-control">
+          <img src="images/discovery/tiger-field-min.webp" alt="Image of BA Tiger Stadium" loading="lazy" class="photo-control-img">
+          <p>BA Tiger Stadium</p>
+        </div>
+        <div class="photo-control">
+          <img src="images/discovery/warren-theater-min.webp" alt="Image of BA Warren Theater" loading="lazy" class="photo-control-img">
+          <p>BA Warren Theater</p>
+        </div>
+    </div>
+  </main>
+  <div>
+    <footer>
+      <div class="footerText">
+        <p>&copy; <span id="currentYear"></span> <span>Email: example_email@aol.com Phone# 555-555-1234 - </span> Sean Sonderegger <span class="discription"> WDD 230 - Web Frontend Development Project Assignment</span>
+        <p id="lastModified"></p>
+      </div>
+    </footer>
+  </div>
+
+  <div>
+    <button onclick="goBack()">Go Back</button>
+    <script>
+        function goBack() {
+        window.history.back();
+        }
+    </script>
+  </div>
+  
+  <script src="scripts/back.js"></script>
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/lastVisit.js"></script>
+  <script src="scripts/firstVisit.js"></script>
+
+
+  
+  </body>
+  </html>
