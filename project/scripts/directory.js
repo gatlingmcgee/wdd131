@@ -1,7 +1,7 @@
 /* ---------------------------Directory----------------------------- */
 
-const baseURL = "https://gatlingmcgee.github.io/wdd230/";
-const membersURL = "https://gatlingmcgee.github.io/wdd230/chamber/data/members.json";
+const baseURL = "https://gatlingmcgee.github.io/wdd131/";
+const membersURL = "https://gatlingmcgee.github.io/wdd131/project/data/members.json";
 
 const display = document.querySelector('#members-list');
 
