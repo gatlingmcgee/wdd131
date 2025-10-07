@@ -5,7 +5,7 @@
       "address": "Broken Arrow, OK 74012",
       "phone": "918-286-6766",
       "url": "https://www.petfinder.com/dog/brad-78614923/ok/broken-arrow/legacy-of-hope-dog-rescue-ok333/",
-      "logopath": "images/dog1.jpg",
+      "logopath": "images/dogs/brad.jpg",
       "level": "Bronze"
     },
     {
@@ -13,7 +13,7 @@
       "address": "Broken Arrow, OK 74012",
       "phone": "918-806-6999",
       "url": "https://www.petfinder.com/dog/pope-78584526/ok/broken-arrow/memphis-street-animal-rescue-ok539/",
-      "logopath": "images/dogs/dog1.jpg",
+      "logopath": "images/dogs/pope.jpg",
       "level": "Silver"
     },
     {
@@ -21,7 +21,47 @@
       "address": "Broken Arrow, OK 74012",
       "phone": "918-940-2770",
       "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
-      "logopath": "images/dogs/dog1.jpg",
+      "logopath": "images/dogs/moonshine.jpeg",
+      "level": "Gold"
+    },
+    {
+      "name": "Gus",
+      "address": "Broken Arrow, OK 74012",
+      "phone": "918-940-2770",
+      "url": "https://www.petfinder.com/dog/gus-77537759/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
+      "logopath": "images/dogs/gus.jpeg",
+      "level": "Gold"
+    },
+    {
+      "name": "Chief",
+      "address": "Broken Arrow, OK 74012",
+      "phone": "918-940-2770",
+      "url": "https://www.petfinder.com/dog/chief-78584561/ok/broken-arrow/memphis-street-animal-rescue-ok539/",
+      "logopath": "images/dogs/chief.jpg",
+      "level": "Gold"
+    },
+    {
+      "name": "Sirius",
+      "address": "Broken Arrow, OK 74012",
+      "phone": "918-940-2770",
+      "url": "https://www.petfinder.com/dog/sirius-aka-siri-77295551/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
+      "logopath": "images/dogs/sirius.jpeg",
+      "level": "Gold"
+    },
+    {
+      "name": "Nutmeg",
+      "address": "Broken Arrow, OK 74012",
+      "phone": "918-940-2770",
+      "url": "https://www.petfinder.com/dog/nutmeg-78584560/ok/broken-arrow/memphis-street-animal-rescue-ok539/",
+      "logopath": "images/dogs/nutmeg.jpg",
+      "level": "Gold"
+    },
+    {
+      "name": "Topaz",
+      "address": "Broken Arrow, OK 74012",
+      "phone": "918-940-2770",
+      "url": "https://www.petfinder.com/dog/topaz-78322854/ok/broken-arrow/legacy-of-hope-dog-rescue-ok333/",
+      "logopath": "images/dogs/topaz.jpg",
       "level": "Gold"
     },
     {
@@ -33,91 +73,51 @@
       "level": "Gold"
     },
     {
-      "name": "Moonshine",
+      "name": "Spice",
       "address": "Broken Arrow, OK 74012",
       "phone": "918-940-2770",
-      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
-      "logopath": "images/dogs/dog1.jpg",
+      "url": "https://www.petfinder.com/cat/spice-78286500/ok/tulsa/itty-bitty-kitty-committee-rescue-inc-ok556/",
+      "logopath": "images/cats/spice.jpg",
       "level": "Gold"
     },
     {
-      "name": "Moonshine",
+      "name": "Pinot",
       "address": "Broken Arrow, OK 74012",
       "phone": "918-940-2770",
-      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
-      "logopath": "images/dogs/dog1.jpg",
+      "url": "https://www.petfinder.com/cat/pinot-77443168/ok/tulsa/itty-bitty-kitty-committee-rescue-inc-ok556/",
+      "logopath": "images/cats/pinot.jpg",
       "level": "Gold"
     },
     {
-      "name": "Moonshine",
+      "name": "Allie",
       "address": "Broken Arrow, OK 74012",
       "phone": "918-940-2770",
-      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
-      "logopath": "images/dogs/dog1.jpg",
+      "url": "https://www.petfinder.com/cat/allie-76021042/ok/tulsa/itty-bitty-kitty-committee-rescue-inc-ok556/",
+      "logopath": "images/cats/alie.jpg",
       "level": "Gold"
     },
     {
-      "name": "Moonshine",
+      "name": "Panoma",
       "address": "Broken Arrow, OK 74012",
       "phone": "918-940-2770",
-      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
-      "logopath": "images/dogs/dog1.jpg",
+      "url": "https://www.petfinder.com/cat/pamona-78315043/ok/broken-arrow/memphis-street-animal-rescue-ok539/",
+      "logopath": "images/cats/panoma.jpg",
       "level": "Gold"
     },
     {
-      "name": "Moonshine",
+      "name": "Slinky",
       "address": "Broken Arrow, OK 74012",
       "phone": "918-940-2770",
-      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
-      "logopath": "images/dogs/dog1.jpg",
+      "url": "https://www.petfinder.com/cat/slinky-77834333/ok/broken-arrow/memphis-street-animal-rescue-ok539/",
+      "logopath": "images/cats/slinky.jpg",
       "level": "Gold"
     },
     {
-      "name": "Moonshine",
+      "name": "Draco",
       "address": "Broken Arrow, OK 74012",
       "phone": "918-940-2770",
-      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
-      "logopath": "images/dogs/dog1.jpg",
-      "level": "Gold"
-    },
-    {
-      "name": "Moonshine",
-      "address": "Broken Arrow, OK 74012",
-      "phone": "918-940-2770",
-      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
-      "logopath": "images/dogs/dog1.jpg",
-      "level": "Gold"
-    },
-    {
-      "name": "Moonshine",
-      "address": "Broken Arrow, OK 74012",
-      "phone": "918-940-2770",
-      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
-      "logopath": "images/dogs/dog1.jpg",
-      "level": "Gold"
-    },
-    {
-      "name": "Moonshine",
-      "address": "Broken Arrow, OK 74012",
-      "phone": "918-940-2770",
-      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
-      "logopath": "images/dogs/dog1.jpg",
-      "level": "Gold"
-    },
-    {
-      "name": "Moonshine",
-      "address": "Broken Arrow, OK 74012",
-      "phone": "918-940-2770",
-      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
-      "logopath": "images/dogs/dog1.jpg",
-      "level": "Gold"
-    },
-    {
-      "name": "Moonshine",
-      "address": "Broken Arrow, OK 74012",
-      "phone": "918-940-2770",
-      "url": "https://www.petfinder.com/dog/moonshine-moonie-77537816/ok/broken-arrow/samsons-sanctuary-rescue-ca2985/",
-      "logopath": "images/dogs/dog1.jpg",
+      "url": "https://www.petfinder.com/cat/draco-75797260/ok/broken-arrow/little-kitten-rescue-ok507/",
+      "logopath": "images/cats/draco.jpg",
       "level": "Gold"
     }
   ]
