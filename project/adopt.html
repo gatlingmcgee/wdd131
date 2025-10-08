@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WDD 131 - Dynamic Web Fundamentals | Sean Sonderegger | Final Project Website</title>
-  <meta name="description" content="This WDD 131 - Dynamic Web Fundamentals website page with ????????????.">
+  <title>Fur Ever Home | Pet Adoption Application</title>
+  <meta name="description" content="Apply to adopt a pet from Fur Ever Home Adoption Site.">
   <meta name="author" content="Sean Sonderegger">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,95 +16,94 @@
 </head>
 <body>
   <header>
+    <img class="logo" src="images/logo.png" alt="Fur Ever Home Logo">
     <a href="adopt.html" class="cta-button">Adopt A Pet</a>
     <h1>Fur Ever Home Adoption Site</h1>
     <a href="#" id="hamburger-menu"></a>
-    <nav class = "navigation">
+    <nav class="navigation">
       <a href="index.html">Home</a>
       <a href="directory.html">Available Friends</a>
-      <a href="discover.html">Volenteers and Donations</a>
-      <a class = "active" href="adopt.html">Adopt A Pet</a>
+      <a href="discover.html">Volunteers and Donations</a>
+      <a class="active" href="adopt.html">Adopt A Pet</a>
       <a href="siteplan.html">Siteplan</a>
+      <a href="workcited.html">Work Cited</a>
     </nav>
   </header>
 
   <main>
     <form method="get" action="thankyou.html" class="user-info">
       <fieldset>
-          <legend>Application Form</legend>
-          <label>First Name:* <input type="text" id="fname" name="fname" required></label>
-          <label>Last Name:* <input type="text" id="lname" name="lname" required></label>
-          <label>Fur Ever Friend Name:* <input type="text" id="lname" name="lname" required></label></label>
-          <label>Email:* <input type="email" id="email" name="email" required placeholder="example_email@email.com"></label>
-          <label>Phone Number:* <input type="tel" id="phone" name="phone" required></label>
-          <div class="container">
-              <div>Would you like to donate?</div>
-              <div class="box">
-                <div class="content">
-                  <label><input type="radio" name="membership" value="np">Non-Profit Membership</label>
-                    <ul>
-                      <li>Free For Non-Profit Business and Organizations</li>
-                      <li>Quarterly Newsletter</li>
-                      <li>Training Sessions</li>
-                      <li class="cost">Free</li>
-                    </ul>
-                </div>
-                <div class="content">
-                  <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
-                    <ul>
-                      <li>Access to Special Events</li>
-                      <li>Quarterly Newsletter</li>
-                      <li>Training Sessions</li>
-                      <li>Discounts on Advertising</li>
-                      <li class="cost">$10.00 Monthly</li>
-                    </ul>
-                </div>  
-                <div class="content">
-                  <label><input type="radio" name="membership" value="silver">Silver Membership</label>
-                    <ul>
-                      <li>Access to Special Events</li>
-                      <li>Quarterly Newsletter</li>
-                      <li>Training Sessions</li>
-                      <li>Discounts on Advertising</li>
-                      <li>Prioroty Tech Support</li>
-                      <li class="cost">$15.00 Monthly</li>
-                    </ul>
-                </div>
-                <div class="content">
-                  <label><input type="radio" name="membership" value="gold">Gold Membership</label>
-                    <ul>
-                      <li>Access to Special Events</li>
-                      <li>Quarterly Newsletter</li>
-                      <li>Training Sessions</li>
-                      <li>Discounts on Advertising</li>
-                      <li>Prioroty Tech Support</li>
-                      <li>VIP Tech Support</li>
-                      <li>Personal Advertising Manager</li>
-                      <li class="cost">$20.00 Monthly</li>
-                    </ul>
-                </div>    
-                  
+        <legend>🐶 Pet Adoption Application Form</legend>
 
-              </div>
+        <label>First Name:* <input type="text" id="fname" name="fname" required></label>
+        <label>Last Name:* <input type="text" id="lname" name="lname" required></label>
+        <label>Email:* <input type="email" id="email" name="email" required placeholder="example@email.com"></label>
+        <label>Phone Number:* <input type="tel" id="phone" name="phone" required></label>
+
+        <label>Pet You Wish to Adopt:* 
+          <input type="text" id="petname" name="petname" required placeholder="Enter pet's name">
+        </label>
+
+        <label>Address:* <input type="text" id="address" name="address" required placeholder="Street, City, State, ZIP"></label>
+
+        <label>Do you rent or own your home?*</label>
+        <select id="housing" name="housing" required>
+          <option value="">Select an option</option>
+          <option value="own">Own</option>
+          <option value="rent">Rent</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label>If you rent, do you have your landlords permission to have pets?</label>
+        <select id="permission" name="permission">
+          <option value="">Select an option</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+          <option value="n/a">Not Applicable</option>
+        </select>
+
+        <label>Have you owned pets before?*</label>
+        <select id="experience" name="experience" required>
+          <option value="">Select an option</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+
+        <label>Please give a brief discription of why you want to adopt:</label>
+        <textarea id="description" name="description" rows="4" cols="64" placeholder="Share your experience, family details, and why this pet is a good fit."></textarea>
+
+        <div class="container">
+          <div>Would you like to make a donation to support other fur babies?</div>
+          <div class="box">
+            <div class="content">
+              <label><input type="radio" name="donation" value="none"> No, thank you</label>
+            </div>
+            <div class="content">
+              <label><input type="radio" name="donation" value="10">$10 Donation</label>
+            </div>
+            <div class="content">
+              <label><input type="radio" name="donation" value="25">$25 Donation</label>
+            </div>
+            <div class="content">
+              <label><input type="radio" name="donation" value="50">$50 Donation</label>
+            </div>
           </div>
-          <label>Breif Description About Yourself:</label>
-          <textarea id="description" name="description" rows="3" cols="64"></textarea>
+        </div>
 
-          <input type="hidden" id="submissionTime" name="submissionTime">
-
+        <input type="hidden" id="submissionTime" name="submissionTime">
       </fieldset>
 
-      <input type="submit" value="Send Application">
+      <input type="submit" value="Submit Application">
     </form>
   </main>
+
   <footer>
     <p>&copy;<span id="currentyear"></span> 🐶 <span>Sean Sonderegger</span> 🐶 <span>Oklahoma, USA</span></p>
     <p><span id="lastmodified"></span></p>
   </footer>
 
-<script src="scripts/hamburger.js"></script>
-<script src="scripts/timeStamp.js"></script>
-<script src="scripts/getdates.js"></script>
-
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/timeStamp.js"></script>
+  <script src="scripts/getdates.js"></script>
 </body>
 </html>
