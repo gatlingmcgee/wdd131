@@ -1,0 +1,85 @@
+@media screen and (min-width: 1000px) {
+
+  main {
+    max-width: 960vw;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    padding: 20px;
+    vertical-align: middle;
+  }
+
+    .navigation {
+    display: inline-block;
+  }
+  
+  .navigation a {
+    display: inline-block;
+  }
+  
+  .navigation a:hover {
+    background-color: #6e6259;
+    color: white;
+  }
+  
+  .navigation .active {
+    background-color: var(--color-secondary);
+    color: white;
+  }
+  
+  #hamburger-menu {
+    display: none; 
+  }
+
+  /* ---------------------------Index----------------------------- */
+  
+  .hero-image {
+    width: 99%;
+    height: 500px;
+    padding: 10px;
+    object-fit: cover;
+    object-position: 100% 27%;
+  }
+
+  .spotlightgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .highlightsgrid {
+    flex-direction: row;
+    gap: 200px;
+  }
+
+  .highlights {
+    width: 30%;
+  }
+
+  /* ---------------------------Directory----------------------------- */
+  
+  .menu {
+    width: 20%;
+  }
+
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #pet-cards-fav {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* ---------------------------Discovery----------------------------- */
+
+  .side-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 100px;
+  }
+
+}
