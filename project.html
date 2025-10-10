@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sean Sonderegger">
+  <meta name="description" content="This WDD 131 - Dynamic Web Fundamentals form page with proper HTML structure, and responsive design setup. It includes course requirments for week five.">
+  <title>WDD 131 - Dynamic Web Fundamentals | Sean Sonderegger | W05 Assignment: Form Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+  <header>
+    <h1>Product Review</h1>
+  </header>
+
+    <main>
+        <form method="get" action="review.html" class="wf1">
+            <fieldset>
+                <label>Product Name*</label>
+                  <select id="product" name="product" required>
+                    <option value="" disabled selected>Select a Product</option>
+                  </select>
+
+                <label>Overall Rating*</label>
+                  <div class="star-rating">
+                    <input type="radio" id="star5" name="rating" value="5" required><label for="star5" title="5 stars">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4" required><label for="star4" title="4 stars">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3" required><label for="star3" title="3 stars">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2" required><label for="star2" title="2 stars">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1" required><label for="star1" title="1 star">&#9733;</label>
+                  </div>
+
+                <label>Date of Installation*</label>
+                  <input type="date" id="installDate" name="installDate" required>
+
+                <label>Which features did you find useful in the product?</label>
+                <label>(Check all that apply)</label>
+                <label><input type="checkbox" name="durability" value="yes"> Durability</label>
+                <label><input type="checkbox" name="use" value="yes"> Ease of Use</label>
+                <label><input type="checkbox" name="preformance" value="yes"> Preformance</label>
+                <label><input type="checkbox" name="design" value="yes"> Design</label>
+
+                <label>Written Review (Optional)</label>
+                  <textarea id="review" name="review" rows="4" cols="50"></textarea>
+
+                <label>Username (Optional): <input type="text" id="username" name="username"></label>
+            </fieldset>
+
+            <input type="submit" value="Post Your Review">
+        </form>
+    </main>
+
+    <footer>
+      <p>&copy;<span id="currentyear"></span> 🦈 <span>Sean Sonderegger</span> 🦈 <span>Oklahoma, USA</span></p>
+      <p><span id="lastmodified"></span></p>
+    </footer>
+    
+    <script src="scripts/review.js"></script>
+    <script src="scripts/getdates.js"></script>
+
+    </body>
+    </html>
+
+
