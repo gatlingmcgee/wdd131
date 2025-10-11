@@ -82,4 +82,22 @@
     padding: 100px;
   }
 
+/* ---------------------------Form----------------------------- */
+
+  .user-info input[type="submit"] {
+    width: 85%;
+    margin: 3rem 0 2rem 7%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .box {
+  grid-template-columns: 100%;
+  }
+
+  .content {
+    max-width: 480px;
+  }
 }

@@ -286,43 +286,43 @@ footer a {
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: space-between;
-    text-align: center;
-    padding: 15px;
-    min-height: 500px;
-    width: auto;
-    height: auto;
-    color: black;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: space-between;
+  text-align: center;
+  padding: 15px;
+  min-height: 500px;
+  width: auto;
+  height: auto;
+  color: black;
 }
 
 .grid img {
-    width: 100%;
-    height: 300px;
-    max-width: 1000px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
+  width: 100%;
+  height: 300px;
+  max-width: 1000px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
 }
 
 .grid img:hover {
-    transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .grid p {
-    padding: 3px;
-    font-size: 17px;
+  padding: 3px;
+  font-size: 17px;
 }
 
 .grid h2 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .grid h4,
 p {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .grid a {
@@ -356,8 +356,6 @@ p {
   transform: scale(1.4);
   color: gold;
 }
-
-/* ---------------------------ADDED ALL THIS *REVIEW*----------------------------- */
 
 .list section {
   width: 100%;
@@ -426,8 +424,6 @@ aside p {
   font-size: 1.2rem;
 }
 
-/* ---------------------------TOO THIS *REVIEW*----------------------------- */
-
 .left-column {
   width: 50%;
 }
@@ -477,7 +473,6 @@ aside p {
 }
 
 /* ---------------------------Form----------------------------- */
-
 
 .user-info {
   text-align: initial;
@@ -561,6 +556,7 @@ textarea {
 
 .content input[type="radio"] {
   margin: .5rem; 
+  transform: scale(1.2);
 }
 
 .content li {
@@ -581,27 +577,24 @@ textarea {
   color: #fff;
   border-radius: 10px;
   padding: 1.2rem;
-  width: 43%;
-  max-width: 40rem;
-  margin: -1rem 2% 2rem 7%;
-  margin-top: 3rem;
+  width: 90%;
+  max-width: 400px;
+  margin: 2rem auto;
+  display: block;
   font-weight: bold;
   font-size: 1.8rem;
 }
 
-/* Make select boxes bigger */
 .user-info select {
-    background-color: #eee;
-    border: 1px solid #999;
-    border-radius: 10px;
-    padding: 1rem 1.2rem; /* Increase height and spacing */
-    font-size: 1.2rem;     /* Bigger text */
-    width: 100%;           /* Full width of container */
-    max-width: 400px;      /* Same as text inputs */
-      /* Remove default arrow styling in some browsers */
-    color: #555;
+  background-color: #eee;
+  border: 1px solid #999;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  font-size: 1.2rem;
+  width: 100%;
+  max-width: 400px;
+  color: #555;
 }
-
 
 .thankyou-message {
   padding: 3rem;
@@ -634,39 +627,39 @@ textarea {
 }
 
 #pet-cards-fav {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: space-between;
-    text-align: center;
-    padding: 15px;
-    min-height: 500px;
-    width: auto;
-    height: auto;
-    color: black;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  text-align: center;
+  padding: 15px;
+  min-height: 500px;
+  width: auto;
+  height: auto;
+  color: black;
 }
 
 .pet-card img {
-    width: 100%;
-    height: 300px;
-    max-width: 1000px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
+  width: 100%;
+  height: 300px;
+  max-width: 1000px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
 }
 
 .pet-card img:hover {
-    transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .pet-card p {
-    padding: 3px;
-    font-size: 17px;
+  padding: 3px;
+  font-size: 17px;
 }
 
 .pet-card h4,
 p {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .pet-card a {
@@ -702,14 +695,14 @@ p {
 }
 
 #pet-cards-fav:empty {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
 }
 
 .emptymessagecss {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 /* ---------------------------Thank Ypu----------------------------- */
