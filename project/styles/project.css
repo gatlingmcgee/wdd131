@@ -37,7 +37,7 @@ header {
   position: absolute;
   top: 10px;
   left: 10px;
-  max-width: 150px;
+  max-width: 120px;
   height: auto;
 }
 
@@ -357,13 +357,76 @@ p {
   color: gold;
 }
 
-/* ---------------------------Discovery----------------------------- */
-.side-bar {
-  display: grid;
+/* ---------------------------ADDED ALL THIS *REVIEW*----------------------------- */
+
+.list section {
+  width: 100%;
   grid-template-columns: 1fr;
-  gap: 20px;
-  padding: 100px;
+  padding: 0.5rem;
+  margin: 0.25rem 0;
 }
+
+.list section p,
+.list section h4 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.list .favorite-star {
+  display: none;
+}
+
+/* ---------------------------Discovery----------------------------- */
+
+.side-bar {
+  padding: 20px;
+  gap: 30px;
+  grid-template-columns: 1fr;
+}
+
+.left-column {
+  width: 100%;
+  padding: 0;
+}
+
+.left-column section,
+.left-column aside,
+.left-column h2,
+.left-column p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+#visit-message h2.message {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+
+aside h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+aside p {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.right-column-photo-gallery {
+  width: 100%;
+  padding: 0;
+}
+
+.photo-control {
+  margin-bottom: 20px;
+}
+
+.photo-control p {
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+
+/* ---------------------------TOO THIS *REVIEW*----------------------------- */
 
 .left-column {
   width: 50%;
@@ -468,19 +531,36 @@ textarea {
 .box {
   display: grid;
   grid-template-columns: 50%;
-  gap: 2rem;
+  gap: 1rem;
+  padding-top: 1.5rem;
   font-weight: bold;
-}
-
-.box {
-  padding-top: 2rem;
 }
 
 .content {
   border: solid 1px #999;
   border-radius: 10px;
-  padding: 0 3rem;
   background-color: #eee;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem 1rem;
+  height: 60px;
+  font-size: 1.2rem;
+  width: 100%;
+  max-width: 480px;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.content label {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.content input[type="radio"] {
+  margin: .5rem; 
 }
 
 .content li {
@@ -497,7 +577,7 @@ textarea {
 
 .user-info input[type="submit"] {
   border: none;
-  background-image: linear-gradient(#3e5b7e, #9c2c13, #3e5b7e);
+  background-image: linear-gradient(#11695f, #9c2c13, #11695f);
   color: #fff;
   border-radius: 10px;
   padding: 1.2rem;
@@ -508,6 +588,20 @@ textarea {
   font-weight: bold;
   font-size: 1.8rem;
 }
+
+/* Make select boxes bigger */
+.user-info select {
+    background-color: #eee;
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: 1rem 1.2rem; /* Increase height and spacing */
+    font-size: 1.2rem;     /* Bigger text */
+    width: 100%;           /* Full width of container */
+    max-width: 400px;      /* Same as text inputs */
+      /* Remove default arrow styling in some browsers */
+    color: #555;
+}
+
 
 .thankyou-message {
   padding: 3rem;
@@ -616,4 +710,27 @@ p {
 
 .emptymessagecss {
     font-size: 3rem;
+}
+
+/* ---------------------------Thank Ypu----------------------------- */
+
+.thankyou {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  text-align: center;
+
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: black;
+}
+
+.thankyou-message h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-secondary);
+}
+
+.thankyou-message p {
+  margin-bottom: 1.2rem;
 }

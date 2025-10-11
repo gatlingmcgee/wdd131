@@ -1,7 +1,7 @@
 @media screen and (min-width: 1000px) {
 
   main {
-    max-width: 960vw;
+    max-width: 600vw;
     margin: 0 auto;
   }
 
@@ -11,7 +11,7 @@
     vertical-align: middle;
   }
 
-    .navigation {
+  .navigation {
     display: inline-block;
   }
   
@@ -72,7 +72,7 @@
   #pet-cards-fav {
     grid-template-columns: repeat(4, 1fr);
   }
-
+  
   /* ---------------------------Discovery----------------------------- */
 
   .side-bar {

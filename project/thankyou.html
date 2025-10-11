@@ -12,13 +12,15 @@
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/project.css">
   <link rel="stylesheet" href="styles/project-large.css">
-  <link rel="icon" type="image/logo.webp" href="images/logo.webp">
 </head>
 <body>
 
   <header>
     <h1>Fur Ever Home Adoption</h1>
     <h2>Thank You for Your Submission!</h2>
+
+    <a href=index.html><img class="logo" src="images/logo.webp" alt="Fur Ever Home Logo"></a>
+    <a href="adopt.html" class="cta-button">Adopt A Pet</a>
 
     <a href="#" id="hamburger-menu"></a>
     <nav class="navigation">
@@ -27,32 +29,27 @@
       <a href="discover.html">Volunteer & Donate</a>
       <a href="adopt.html">Adopt</a>
       <a class="active" href="thankyou.html">Thank You</a>
-      <a href="references.html">Works Cited</a>
     </nav>
   </header>
 
   <main>
-    <h2>Your submission has been received!</h2>
-    <p>Thank you for your interest in helping an animal find their <strong>fur-ever home</strong> or supporting our mission through donations or volunteering.</p>
-    <p>We truly appreciate your compassion and generosity. A member of our team will reach out soon with more details about your request.</p>
-    <p>Until then, feel free to continue exploring our available pets or upcoming events!</p>
-
-    <div class="thankyou-buttons">
-      <button onclick="window.location.href='directory.html'">View Available Pets</button>
-      <button onclick="window.location.href='discover.html'">Volunteer & Donate</button>
-      <button onclick="window.location.href='index.html'">Return Home</button>
+    <div class="thankyou">
+      <h2>Your submission has been received!</h2>
+      <p>Thank you for your interest in helping an animal find their <strong>fur-ever home</strong> or supporting our mission through donations or volunteering.</p>
+      <p>We truly appreciate your compassion and generosity. A member of our team will reach out soon with more details about your request.</p>
+      <p>Until then, feel free to continue exploring our available pets or upcoming events!</p>
     </div>
+
 
     <input type="hidden" id="submissionTime" name="submissionTime">
   </main>
 
   <footer>
     <p>&copy;<span id="currentyear"></span> 🐶 <span>Sean Sonderegger</span> 🐶 <span>Oklahoma, USA</span> || <a href="workcited.html">Work Cited</a> || <a class = "active" href="siteplan.html">Siteplan</a></p>
-    </p>
     <p><span id="lastmodified"></span></p>
   </footer>
 
-  <script src="scripts/timeStamp.js"></script>
+  <script src="scripts/hamburger.js"></script>
   <script src="scripts/getdates.js"></script>
 
 </body>
